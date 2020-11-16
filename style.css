@@ -5,6 +5,7 @@ html, body {
   width: 100%;
   font-family: "Poppins", sans-serif;
   color: #222;
+  scroll-behavior: smooth;
 }
 .navbar {
   padding: .8rem;
@@ -36,12 +37,12 @@ text-shadow: 1px 1px 15px #000;
   padding-bottom: 1rem;
 }
 .btn-primary {
-  background-color: #6648b1;
-  border: 1px solid #6648b1;
+  background-color: #94edf0;
+  border: 1px solid #94edf0;
 }
 .btn-primary:hover {
-  background-color: #563d7c;
-  border: 1px solid #563d7c;
+  background-color: #00c3ff;
+  border: 1px solid #25163a;
 }
 .jumbotron {
   padding: 1rem;
@@ -61,16 +62,16 @@ text-shadow: 1px 1px 15px #000;
   margin-top: .3rem;
   margin-bottom: 1rem;
 }
-.fa-code {
+.fa-plane {
   color: #e54d26;
 }
-.fa-bold {
+.fa-cog {
   color: #563d7c;
 }
-.fa-css3 {
+.fa-shopping-cart {
   color: #2163af;
 }
-.fa-code, .fa-bold, .fa-css3 {
+.fa-plane, .fa-cog, .fa-shopping-cart {
   font-size: 4em;
   margin: 1rem;
 }
@@ -85,10 +86,10 @@ text-shadow: 1px 1px 15px #000;
   font-size: 4.5em;
   padding: 3rem ;
 }
-.fa-facebook {
+.fa-phone {
   color: #3b5998;
 }
-.fa-twitter {
+.fa-envelope-open {
   color: #00aced;
 }
 .fa-google-plus-g{
@@ -248,3 +249,4 @@ Large (lg) devices (desktops, 992px and up)
 Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 */
+
