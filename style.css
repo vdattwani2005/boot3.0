@@ -102,6 +102,8 @@ text-shadow: 1px 1px 15px #000;
   color: #bb0000;
 }
 .fa-facebook:hover,
+.fa-phone:hover,
+.fa-envelope-open:hover,
 .fa-twitter:hover,
 .fa-google-plus-g:hover,
 .fa-instagram:hover,
@@ -233,20 +235,24 @@ figure {
 
 
 
-/*
+
 Extra small (xs) devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap
 
 Small (sm) devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
+@media (min-width: 576px) {
+  body{font-size: 10px;}
+}
 
 Medium (md) devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
+@media (min-width: 768px) {
+  body{font-size: 14px;}
+}
 
 Large (lg) devices (desktops, 992px and up)
 @media (min-width: 992px) { ... }
 
 Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
-*/
+
 
