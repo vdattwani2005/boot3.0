@@ -48,6 +48,11 @@ text-shadow: 1px 1px 15px #000;
   padding: 1rem;
   border-radius: 0;
 }
+.underlineing{
+  border-bottom: 1px solid #000;
+  width: 40%;
+  padding-bottom: 3px;
+}
 .padding {
   padding-bottom: 2rem;
 }
@@ -186,6 +191,14 @@ hr.light-100{
     font-size: 2em;
     padding: .7rem;
     }
+}
+.ulbro{
+  text-align: justify;
+  font-size: larger;
+}
+
+.responsive-width {
+  font-size: 3vw;
 }
 
 
