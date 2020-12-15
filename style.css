@@ -27,7 +27,7 @@ html, body {
 }
 .carousel-caption {
   position: absolute;
-  top: 50%;
+  top: 40%;
   transform: translateY(-50%);
 }
 .carousel-caption h1 {
