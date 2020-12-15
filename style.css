@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+/*@include media-breakpoint-between(xs,sm){
+  .btn {
+      @include button-size($input-btn-padding-y-sm, $input-btn-padding-x-sm, $font-size-sm, $line-height-sm, $btn-border-radius-sm);
+  }
+}*/
 
 html, body {
   height: 100%;
@@ -27,8 +32,8 @@ html, body {
 }
 .carousel-caption h1 {
   font-size: 500%;
-text-transform: uppercase;
-text-shadow: 1px 1px 15px #000;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 15px #000;
 }
 .carousel-caption h3{
   font-size: 200%;
@@ -49,10 +54,15 @@ text-shadow: 1px 1px 15px #000;
   border-radius: 0;
 }
 .underlineing{
-  border-bottom: 1px solid #000;
+  border-bottom: 3px solid #000;
   width: 40%;
   padding-bottom: 3px;
 }
+.firstLetter {
+  font-size: 125%;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 15px #000;
+  } 
 .padding {
   padding-bottom: 2rem;
 }
@@ -160,7 +170,7 @@ hr.light-100{
   padding: 8px 14px;
 }
 .display-4 {
-  font-size: 100%;
+  font-size: 200%;
 }
 .social a {
   font-size: 2.5em;
@@ -172,10 +182,10 @@ hr.light-100{
       top: 40%;
     }
   .carousel-caption h1 {
-      font-size: 250%;
+      font-size: 150%;
     }
   .carousel-caption h3{
-      font-size: 110%;
+      font-size: 75%;
     }
   .carousel-caption .btn {
     font-size: 90%;
@@ -252,20 +262,14 @@ figure {
 Extra small (xs) devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap
 
-Small (sm) devices (landscape phones, 576px and up)
-@media (min-width: 576px) {
-  body{font-size: 10px;}
-}
+@media (min-width: 576px){
 
-Medium (md) devices (tablets, 768px and up)
 @media (min-width: 768px) {
   body{font-size: 14px;}
 }
 
-Large (lg) devices (desktops, 992px and up)
 @media (min-width: 992px) { ... }
 
-Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 
 
