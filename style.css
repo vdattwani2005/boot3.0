@@ -27,11 +27,11 @@ html, body {
 }
 .carousel-caption {
   position: absolute;
-  top: 40%;
+  top: 28%;
   transform: translateY(-50%);
 }
 .carousel-caption h1 {
-  font-size: 500%;
+  font-size: 450%;
   text-transform: uppercase;
   text-shadow: 1px 1px 15px #000;
 }
