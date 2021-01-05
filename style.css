@@ -149,6 +149,10 @@ hr.light-100{
   max-width: 40%;
 }
 
+.imgresolve {
+  max-width: 40%;
+}
+
 /*---Media Queries --*/
 @media (max-width: 992px) {
   .social a {
