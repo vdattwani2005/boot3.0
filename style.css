@@ -26,28 +26,31 @@ html, body {
   height: 100%;
 }
 .carousel-caption {
-  position: absolute;
-  top: 28%;
+  position:absolute;
+  top:35%;
   transform: translateY(-50%);
+  text-shadow: #ffffff;
 }
 .carousel-caption h1 {
+  color:#0080ff;
   font-size: 450%;
   text-transform: uppercase;
-  text-shadow: 1px 1px 15px #000;
+  text-shadow: 3px 3px 15px #ffffff;
 }
 .carousel-caption h3{
+  color:#0080ff;
   font-size: 200%;
   font-weight: 500;
-  text-shadow: 1px 1px 10px #000;
+  text-shadow: 3px 3px 30px #ffffff;
   padding-bottom: 1rem;
 }
-.btn-primary {
-  background-color: #94edf0;
-  border: 1px solid #94edf0;
+.btn-light {
+  background-color: #00274e;
+  border: 1px solid #00274e;
 }
-.btn-primary:hover {
+.btn-light:hover {
   background-color: #00c3ff;
-  border: 1px solid #25163a;
+  border: 1px solid #00c3ff;
 }
 .jumbotron {
   padding: 1rem;
@@ -61,7 +64,7 @@ html, body {
 .firstLetter {
   font-size: 125%;
   text-transform: uppercase;
-  text-shadow: 1px 1px 15px #000;
+  text-shadow: 3px 3px 15px #ffffff;
   } 
 .padding {
   padding-bottom: 2rem;
@@ -145,12 +148,10 @@ hr.light-100{
   margin-top: .8rem;
   margin-bottom: 1rem;
 }
-.picinside{
-  max-width: 40%;
-}
 
-.imgresolve {
-  max-width: 40%;
+.container img {
+  width:300vw;
+  height:max-content;
 }
 
 /*---Media Queries --*/
@@ -186,7 +187,7 @@ hr.light-100{
 }
 @media (max-width: 576px) {
   .carousel-caption {
-      top: 40%;
+      top: 30%;
     }
   .carousel-caption h1 {
       font-size: 150%;
@@ -208,6 +209,10 @@ hr.light-100{
     font-size: 2em;
     padding: .7rem;
     }
+    .container img {
+      width:300vw;
+      height:max-content;
+    }
 }
 .ulbro{
   text-align: justify;
@@ -217,7 +222,6 @@ hr.light-100{
 .responsive-width {
   font-size: 3vw;
 }
-
 
 /*---Firefox Bug Fix --*/
 .carousel-item {
@@ -268,8 +272,6 @@ figure {
 
 Extra small (xs) devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap
-
-@media (min-width: 576px){
 
 @media (min-width: 768px) {
   body{font-size: 14px;}
