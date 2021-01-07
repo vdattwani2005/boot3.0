@@ -149,10 +149,6 @@ hr.light-100{
   margin-bottom: 1rem;
 }
 
-.container img {
-  width:300vw;
-  height:max-content;
-}
 
 /*---Media Queries --*/
 @media (max-width: 992px) {
@@ -208,10 +204,6 @@ hr.light-100{
   .social a {
     font-size: 2em;
     padding: .7rem;
-    }
-    .container img {
-      width:300vw;
-      height:max-content;
     }
 }
 .ulbro{
