@@ -47,6 +47,7 @@ html, body {
 .btn-light {
   background-color: #00274e;
   border: 1px solid #00274e;
+  margin-top: 20%;
 }
 .btn-light:hover {
   background-color: #00c3ff;
